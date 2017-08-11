@@ -1,0 +1,63 @@
+div.leftNav{
+    position: fixed;
+    overflow: auto;z-index:50;
+    height: 595px;left:0px;
+    top: 46px;
+}
+body, div.leftNav,div#hdr{background: radial-gradient(white,black);}
+div#hdr {
+    width: 100%;z-index:50;
+    height: 45px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+div#hdr:hover img.skilLogo{animation: Saad 1.2s infinite;}
+.Mainl {
+    display: inline-block;
+    vertical-align: top;
+}
+div#lNav .ls {
+    width: 250px;
+    background: yellowgreen;
+    margin: 15px;
+    height: 76px;
+}
+div#divBody .cd {
+    background: yellow;
+    display: inline-block;
+    width: 22%;position:relative;
+    padding: 8px;overflow:hidden;
+    margin: 4px;
+    height: 200px;
+}
+div#divBody {
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 45px;
+}	
+.cd:hover div.hid {
+    bottom: 0!important;
+}
+div.hid{ position: absolute;
+    bottom: -30%;
+    width: 100%;
+    left: 0;
+    height: 30%;
+    text-align: center;
+    transition: all 0.5s ease-in,out;
+}
+div.hd {
+    display: inline-block;
+    float: right;
+    margin: 1px;
+    background: yellowgreen;
+    padding: 13px;
+}
+img.skilLogo{    width: 160px;
+    margin-left: calc(50% - 160px/2);}
+@keyframes Saad{
+	0%{transform:rotateY(91deg)}
+	50%{transform:rotateY(0deg)}
+	100%{transform:rotateY(-91deg)}
+}
