@@ -4,7 +4,7 @@ div.leftNav{
     height: 595px;left:0px;
     top: 46px;
 }
-body, div.leftNav,div#hdr{background: radial-gradient(white,black);}
+body, div.leftNav,div#hdr{background: #6f6456;}
 div#hdr {
     width: 100%;z-index:50;
     height: 45px;
